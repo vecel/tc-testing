@@ -102,9 +102,9 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.karandys</groupId>
-      <artifactId>try</artifactId>
-      <version>5.0</version>
+      <groupId>karandys</groupId>
+      <artifactId>smart</artifactId>
+      <version>1.0</version>
     </dependency>
   </dependencies>
 </project>
