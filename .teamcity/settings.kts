@@ -5,7 +5,6 @@ import jetbrains.buildServer.configs.kotlin.vcs.GitVcsRoot
 import org.karandys.smart.SmartGenerator
 
 version = "2024.03"
-val generator = SmartGenerator(12345)
 
 project {
 
@@ -15,6 +14,7 @@ project {
 }
 
 object Build : BuildType({
+    val generator = SmartGenerator(12345)
     name = generator.name
 
     vcs {
