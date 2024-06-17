@@ -24,6 +24,10 @@ object Build : BuildType({
             id = "Maven2"
             goals = "clean test"
             runnerArgs = "-Dmaven.test.failure.ignore=true"
+            mavenVersion = custom {
+                path = "/opt/homebrew/Cellar/maven/3.9.6/libexec"
+            }
+            jdkHome = "%env.JDK_11%"
         }
     }
 
