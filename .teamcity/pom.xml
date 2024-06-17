@@ -101,10 +101,5 @@
       <version>${kotlin.version}</version>
       <scope>compile</scope>
     </dependency>
-    <dependency>
-      <groupId>karandys</groupId>
-      <artifactId>smart</artifactId>
-      <version>1.0</version>
-    </dependency>
   </dependencies>
 </project>
